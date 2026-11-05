@@ -1,0 +1,33 @@
+{
+  "name": "trabajo-practico-investigacion-typescript",
+  "version": "1.0.0",
+  "description": "TP Integrador: investigación en TypeScript",
+  "scripts": {
+    "dev": "npx tsx watch app.ts",
+    "start": "node dist/app.js",
+    "build": "npx tsc",
+    "tema1": "tsx src/01-que-es-typescript.ts",
+    "tema2": "tsx src/02-proyecto-y-ejecucion.ts",
+    "tema3": "tsx src/03-tipos-basicos.ts",
+    "tema4": "tsx src/04-funciones.ts",
+    "tema5": "tsx src/05-interfaces-y-type.ts",
+    "tema6": "tsx src/06-enums-y-literales.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxiSoriaGit/trabajo-practico-investigacion-typescript.git"
+  },
+  "keywords": [],
+  "author": "Soria Maximiliano",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MaxiSoriaGit/trabajo-practico-investigacion-typescript/issues"
+  },
+  "homepage": "https://github.com/MaxiSoriaGit/trabajo-practico-investigacion-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
